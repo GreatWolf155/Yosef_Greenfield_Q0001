@@ -36,7 +36,7 @@ l2 = [9,9,9,9]
 num1 = 0
 num2 = 0
 for i in range(len(l1)):
-    num1 += l1[i] * (10 **i)
+    num1 += l1[i] * (10 ** i)
 for i in range(len(l2)):
     num2 += l2[i] * (10 ** i)
 result = num1 + num2
