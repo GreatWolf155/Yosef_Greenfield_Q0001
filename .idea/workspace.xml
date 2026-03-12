@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bcf9c0-ee87-422c-9e5d-28fb70af7d01" name="Changes" comment="LeetCodeQ0022 Complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode 0011-0020/LeetCodeQ0019.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode 0011-0020/LeetCodeQ0019.py" afterDir="false" />
-    </list>
+    <list default="true" id="48bcf9c0-ee87-422c-9e5d-28fb70af7d01" name="Changes" comment="LeetCodeQ0019 Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -417,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773347427928</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="LeetCodeQ0019 Complete">
+      <option name="closed" value="true" />
+      <created>1773353925224</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1773353925224</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -445,6 +450,7 @@
     <MESSAGE value="LeetCodeQ0020 Complete" />
     <MESSAGE value="LeetCodeQ0021 Complete" />
     <MESSAGE value="LeetCodeQ0022 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCodeQ0022 Complete" />
+    <MESSAGE value="LeetCodeQ0019 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCodeQ0019 Complete" />
   </component>
 </project>

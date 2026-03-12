@@ -27,9 +27,11 @@ Follow up: Could you do this in one pass?
 """
 
 """
-swap list to list of tuples, where the first value is the list value, and the second is the list index of the next item
+swap list to list of lists, where the first value is the list value, and the second is the list index of the next item
 the last index value will be None
-if the second value is either None or greater than the max index, stop
+add the value to a new list
+if the second value is None, stop
+if the second value is greater than the current index, add an extra one to the current index
 """
 
 head = [1,2,3,4,5]
