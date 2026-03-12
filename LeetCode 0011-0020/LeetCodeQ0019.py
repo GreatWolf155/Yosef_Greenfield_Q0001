@@ -26,10 +26,36 @@ The number of nodes in the list is sz.
 Follow up: Could you do this in one pass?
 """
 
+"""
+swap list to list of tuples, where the first value is the list value, and the second is the list index of the next item
+the last index value will be None
+if the second value is either None or greater than the max index, stop
+"""
+
 head = [1,2,3,4,5]
 n = 2
 
-head.pop(-n)
-print(head)
-
+linked = []
+new_linked = []
 # Come back to this
+# next = i+1
+
+for i in range(len(head)):
+    if i != len(head) - 1:
+        linked.append([head[i], i + 1])
+    else:
+        linked.append([head[i], None])
+for i in range(len(linked)):
+    if i == len(linked) - n:
+        linked[i][1] = 'skip'
+        linked[i-1][1] += 1
+index = 0
+while True:
+    new_linked.append(linked[index][0])
+    if linked[index][1] is None:
+        break
+    if linked[index][1] > index + 1:
+        index += 2
+    else:
+        index += 1
+print(new_linked)
